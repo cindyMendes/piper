@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,72 +10,74 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="card">
-    <div class="header">
-      <span class="paw-emoji">🐾</span>
-      <h1>Bonjour, je m'appelle</h1>
-      <div class="name">Piper</div>
-      <p class="subtitle">J'ai besoin d'aide pour rentrer chez moi</p>
+
+    <div class="card-top">
+      <div class="intro">Bonjour, je m'appelle</div>
+      <div class="name"><span class="paw">🐾</span> Piper <span class="paw">🐾</span></div>
+      <div class="tagline">J'ai besoin d'aide pour rentrer chez moi</div>
     </div>
-  
-    <div class="body">
-      <div class="info-block">
-        <div class="icon">🏠</div>
-        <div class="info-text">
-          <label>Mon adresse</label>
-          <span>1 Chemin des Lavandins<br></span>
-          <span>06800 Cagnes-sur-Mer<br></span>
-          <span>France</span>
+
+    <div class="card-grid">
+
+      <div class="cell">
+        <div class="cell-icon">🙋🏼‍♀️</div>
+        <div class="cell-body">
+          <div class="cell-label">Ma maman</div>
+          <div class="cell-value name-value">Cindy</div>
         </div>
       </div>
-  
-      <div class="info-block">
-        <div class="icon">🙋🏼‍♀️</div>
-        <div class="info-text">
-          <label>Ma maman</label>
-          <span>Cindy</span>
+
+      <div class="cell">
+        <div class="cell-icon">📞</div>
+        <div class="cell-body">
+          <div class="cell-label">Téléphone</div>
+          <div class="cell-value phone">06 18 73 68 32</div>
+          <div class="cell-value phone">06 31 72 56 28</div>
         </div>
       </div>
-  
-      <div class="info-block">
-        <div class="icon">📞</div>
-        <div class="info-text">
-          <label>Téléphone</label>
-          <span class="phone">06 18 73 68 32<br></span>
-          <span class="phone">06 31 72 56 28</span>
+
+      <div class="cell">
+        <div class="cell-icon">🏠</div>
+        <div class="cell-body">
+          <div class="cell-label">Mon adresse</div>
+          <div class="cell-value">1 Chemin des Lavandins<br>06800 Cagnes-sur-Mer<br>France</div>
         </div>
       </div>
-  
-      <div class="info-block">
-        <div class="icon">🦴</div>
-        <div class="info-text">
-          <label>Vétérinaire</label>
-          <span>Clinic Val d'Azur<br></span>
-          <span>235 Av. des Mouettes<br></span>
-          <span>06700 Saint-Laurent-du-Var<br></span>
-          <span class="phone">04 81 68 35 98</span>
+
+      <div class="cell">
+        <div class="cell-icon">🦴</div>
+        <div class="cell-body">
+          <div class="cell-label">Vétérinaire</div>
+          <div class="cell-value">Clinic Val d'Azur<br>235 Av. des Mouettes<br>06700 St-Laurent-du-Var</div>
+          <div class="cell-value phone">04 81 68 35 98</div>
         </div>
       </div>
-  
-      <div class="info-block">
-        <div class="icon">🌍</div>
-        <div class="info-text">
-          <label>Enregistrement Puce</label>
-          <span>États-Unis · AKC Reunite</span>
+
+      <div class="cell">
+        <div class="cell-icon">🌍</div>
+        <div class="cell-body">
+          <div class="cell-label">Enregistrement puce</div>
+          <div class="cell-value">États-Unis · AKC Reunite</div>
         </div>
       </div>
-  
-      <div class="chip-box">
-        <label>💾 Numéro de micropuce</label>
-        <div class="chip-number">956000005638955</div>
+
+      <div class="cell">
+        <div class="cell-icon">💾</div>
+        <div class="cell-body">
+          <div class="cell-label">Numéro de micropuce</div>
+          <div class="cell-value">956000005638955</div>
+        </div>
       </div>
+
     </div>
-  
-    <div class="footer">
-      <p>Merci d'appeler ma maman ! 💜</p>
-      <div class="paws-row">🐾 🐾 🐾</div>
+
+    <div class="card-bottom">
+      Merci d'appeler ma maman
     </div>
+
   </div>
 </body>
 </html>
