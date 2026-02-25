@@ -29,6 +29,7 @@ body {
     radial-gradient(circle at 80% 80%, rgba(180,150,210,0.2) 0%, transparent 50%);
   font-family: 'DM Sans', sans-serif;
   padding: 1.5rem;
+  padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
 }
 
 .card {
@@ -36,7 +37,7 @@ body {
   border-radius: 2.5rem;
   width: 100%;
   max-width: 900px;
-  height: calc(100vh - 3rem);
+  height: calc(100vh - 3rem - env(safe-area-inset-bottom, 0px));
   max-height: 600px;
   display: flex;
   flex-direction: column;
@@ -209,13 +210,19 @@ body {
 
 /* ── MOBILE ── */
 @media (max-width: 600px) {
-  body { padding: 0.75rem; }
+  body {
+    padding: 0.75rem;
+    padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+    height: 100dvh;
+    align-items: flex-start;
+    overflow-y: auto;
+  }
 
   .card {
     max-height: none;
     height: auto;
     border-radius: 2rem;
-    overflow-y: auto;
+    overflow-y: visible;
   }
 
   .card-top {
