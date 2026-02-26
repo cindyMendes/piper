@@ -211,7 +211,7 @@ body {
 /* ── MOBILE ── */
 @media (max-width: 600px) {
   body {
-    padding: 0.5rem;
+    padding: 0.75rem;
     padding-bottom: calc(0.5rem + env(safe-area-inset-bottom, 0px));
     height: 100dvh;
     align-items: center;
@@ -270,9 +270,9 @@ body {
     flex-shrink: 0;
   }
 
-  .cell-label { font-size: 0.52rem; margin-bottom: 0.15rem; }
-  .cell-value { font-size: 0.78rem; }
-  .cell-value.phone { font-size: 0.85rem; }
+  .cell-label { font-size: 0.70rem; margin-bottom: 0.15rem; }
+  .cell-value { font-size: 0.85rem; }
+  .cell-value.phone { font-size: 0.95rem; }
   .cell-value.name-value { font-size: 1rem; }
 
   .card-bottom { font-size: 0.95rem; padding: 0.5rem 1.5rem; }
