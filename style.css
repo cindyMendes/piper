@@ -254,8 +254,8 @@ body {
     border-right: none;
   }
 
-  .cell:nth-child(3),
-  .cell:nth-child(4) {
+  .cell:nth-child(5),
+  .cell:nth-child(6) {
     grid-column: span 2;
     border-right: none;
   }
