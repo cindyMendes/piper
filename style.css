@@ -275,10 +275,10 @@ body {
     flex-shrink: 0;
   }
 
-  .cell-label { font-size: 0.85rem; margin-bottom: 0.30rem; }
+  .cell-label { font-size: 0.75rem; margin-bottom: 0.25rem; }
   .cell-value { font-size: 1rem; }
   .cell-value.phone { font-size: 1rem; }
-  .cell-value.name-value { font-size: 1rem; }
+  .cell-value.name-value { font-size: 1.2rem; }
 
   .card-bottom { font-size: 0.95rem; padding: 0.5rem 1.5rem; }
 }
