@@ -1,6 +1,6 @@
-# Piper 🐾 
+# Piper 🐾
 
-Carte d'identité web pour Piper, au cas où elle se perd.  
+Carte d'identité web pour Piper, au cas où elle se perd.
 Accessible via un **QR code** imprimé sur son collier.
 
 ## 📁 Structure
@@ -15,24 +15,22 @@ piper/
 
 ## 🚀 Déploiement
 
-### Option 1 — GitHub Pages (recommandé)
+> Une fois le site en ligne, on peut génèrer un QR code avec l'URL sur [qrcode-monkey.com](https://qrcode-monkey.com)
 
-1. Va dans **Settings → Pages** du repo
-2. Source : branche `main`, dossier `/root`
+### GitHub Pages (branche `dev`)
+
+1. Dans **Settings → Pages** du repo
+2. Source : branche `dev`, dossier `/root`
 3. Clique **Save**
 4. Le site est accessible sur `https://cindymendes.github.io/piper`
 
-### Option 2 — Netlify
+### Netlify (branche `main`)
 
-1. Va sur [netlify.com](https://netlify.com) et connecte ton repo GitHub
-2. Netlify génère une URL publique (ex: `piper.netlify.app`)
+Tout push sur la branche `main` déclenche un redéploiement automatique.
 
----
-
-Une fois le site en ligne, génère un QR code avec l'URL sur [qrcode-monkey.com](https://qrcode-monkey.com), imprime-le et colle-le sur le collier de Piper. 🐾
+URL : [piper-dog-id.netlify.app](https://piper-dog-id.netlify.app)
 
 ## ✏️ Modifier les infos
 
 Toutes les informations sont dans `index.html`, directement éditables.
 
----
