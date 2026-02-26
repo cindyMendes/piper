@@ -30,6 +30,9 @@ Tout push sur la branche `main` déclenche un redéploiement automatique.
 
 URL : [piper-dog-id.netlify.app](https://piper-dog-id.netlify.app)
 
+<img src="./qr-code/qr-code.png" alt="QR Code Piper" width="200">
+
+
 ## ✏️ Modifier les infos
 
 Toutes les informations sont dans `index.html`, directement éditables.
