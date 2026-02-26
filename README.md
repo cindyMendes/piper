@@ -3,6 +3,8 @@
 Carte d'identité web pour Piper, au cas où elle se perd.
 Accessible via un **QR code** imprimé sur son collier.
 
+---
+
 ## 📁 Structure
 
 ```
@@ -12,6 +14,8 @@ piper/
 ├── favicon.png   → icône de l'onglet
 └── README.md
 ```
+
+---
 
 ## 🚀 Déploiement
 
