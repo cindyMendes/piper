@@ -237,7 +237,7 @@ body {
   .card-grid {
     flex: 1;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1.8fr 0.6fr 0.6fr;
+    grid-template-rows: 0.6fr 1.1fr 1.1fr 0.6fr 0.6fr;
     grid-auto-flow: row;
     overflow: hidden;
   }
@@ -254,6 +254,8 @@ body {
     border-right: none;
   }
 
+  .cell:nth-child(3),
+  .cell:nth-child(4),
   .cell:nth-child(5),
   .cell:nth-child(6) {
     grid-column: span 2;
